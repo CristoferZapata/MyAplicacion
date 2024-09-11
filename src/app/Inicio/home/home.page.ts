@@ -26,7 +26,7 @@ export class HomePage {
             password: this.user.password,
           },
         };
-        this.router.navigate(['/perfil'], navigationExtras);
+        this.router.navigate(['/mainmenu'], navigationExtras);
       } else {
         console.log('Contraseña vacia');
         this.mensaje = 'Contraseña vacia';

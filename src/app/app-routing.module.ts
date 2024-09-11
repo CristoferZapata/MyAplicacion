@@ -23,6 +23,11 @@ const routes: Routes = [
     path: 'recoverpass',
     loadChildren: () => import('./Inicio/recoverpass/recoverpass.module').then( m => m.RecoverpassPageModule)
   },
+  {
+    path: 'mainmenu',
+    loadChildren: () => import('./Inicio/mainmenu/mainmenu.module').then( m => m.MainmenuPageModule)
+  },
+
 
 ];
 
